@@ -1,0 +1,16 @@
+{
+    "name": "job-offers-custom-block",
+    "version": "1.0.0",
+    "description": "Simple plugin with ACF block for Job Offers List with Tailwind CSS, SASS, and watch",
+    "scripts": {
+        "build-css": "sass src/style.scss dist/style.css",
+        "build": "npm run build-css && npx tailwindcss build src/style.css -o dist/style.css",
+        "watch-css": "sass src/style.scss dist/style.css --watch",
+        "watch": "npm run watch-css & npx tailwindcss build src/style.css -o dist/style.css --watch"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.19",
+        "postcss": "^8.4.38",
+        "sass": "^1.77.6"
+    }
+}

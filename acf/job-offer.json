@@ -1,0 +1,228 @@
+[
+    {
+        "key": "group_667c03f5a7e5a",
+        "title": "Oferta pracy",
+        "fields": [
+            {
+                "key": "field_667c045097932",
+                "label": "Nazwa firmy",
+                "name": "company_name",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_667c0e13af723",
+                "label": "Lokalizacja",
+                "name": "location",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_667c0e89b98c7",
+                "label": "Rodzaj zatrudnienia",
+                "name": "type_of_employment",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Umowa o pracę": "Umowa o pracę",
+                    "B2B": "B2B",
+                    "Zlecenie": "Zlecenie",
+                    "Umowa o dzieło": "Umowa o dzieło"
+                },
+                "default_value": [],
+                "allow_null": 1,
+                "multiple": 1,
+                "ui": 1,
+                "ajax": 0,
+                "return_format": "value",
+                "placeholder": ""
+            },
+            {
+                "key": "field_667c05c530e44",
+                "label": "Szczegóły oferty",
+                "name": "offer_details",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layouts": {
+                    "layout_667c09bde1313": {
+                        "key": "layout_667c09bde1313",
+                        "name": "job_details",
+                        "label": "Opis stanowiska pracy",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_667c09c9e1314",
+                                "label": "Opis stanowiska pracy",
+                                "name": "job_details_desc",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1,
+                                "delay": 0
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    "layout_667c05ce3f053": {
+                        "key": "layout_667c05ce3f053",
+                        "name": "job_requirements",
+                        "label": "Wymagania",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_667c05ed5d383",
+                                "label": "Wymagania",
+                                "name": "job_requirements_desc",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1,
+                                "delay": 0
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    "layout_667c096b428d1": {
+                        "key": "layout_667c096b428d1",
+                        "name": "terms_of_reference",
+                        "label": "Zakres obowiązków",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_667c08fa5d384",
+                                "label": "Zakres obowiązków",
+                                "name": "terms_of_reference_desc",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1,
+                                "delay": 0
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    "layout_667c0e4a86e07": {
+                        "key": "layout_667c0e4a86e07",
+                        "name": "we_offer",
+                        "label": "Oferujemy",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_667c0e4a86e08",
+                                "label": "Oferujemy",
+                                "name": "we_offer_desc",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1,
+                                "delay": 0
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                },
+                "button_label": "Dodaj wiersz",
+                "min": "",
+                "max": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "job-offers"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "the_content"
+        ],
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]
